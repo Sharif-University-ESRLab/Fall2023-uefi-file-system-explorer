@@ -82,35 +82,30 @@ Testing with QEMU
      
     `qemu-system-x86_64 -drive if=pflash,format=raw,readonly,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd -drive if=pflash,format=raw,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_VARS.fd -nographic -net none`
 
-
+*****************************
 ## Implementation Details
 
 In this section, you will explain how you completed your project. It is recommended to use pictures to demonstrate your system model and implementation.
 
 
 Feel free to use sub-topics for your projects. If your project consists of multiple parts (e.g. server, client, and embedded device), create a separate topic for each one.
+*****************************
+## Commands
 
-## How to Run
 
-In this part, you should provide instructions on how to run your project. Also if your project requires any prerequisites, mention them. 
-
-#### Examples:
-#### Build Project
-Your text comes here
-```bash
-  build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5
-```
-
-#### Run server
-Your text comes here
-```bash
-  pyhton server.py -p 8080
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `-p` | `int` | **Required**. Server port |
-
+*   `ls` - list all files and directories in the current directory
+*   `ls -n` - list all files and directories in the current directory with alphabetical order
+*   `rm <file_name>` - remove file or directory
+*   `mkdir <directory_name>` - create a new directory
+*   `cd <directory_name>` - change current directory
+*   `nano <file_name>` - create or edit a file
+*   `info <file_name>` - print name and size of a file
+*   `cat <file_name>` - print content of a file
+*   `copy <file_name>` - copy a file or directory
+*   `cut <file_name>` - cut a file or directory
+*   `paste` - paste a file or directory
+*   `search <sub_name>` - show files and directories that contain this substring
+*   `quit` - exit the program
 
 
 ## Results
