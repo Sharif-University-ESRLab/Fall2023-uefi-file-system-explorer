@@ -21,14 +21,12 @@ Installing Packages on Ubuntu
 
 Run the following commands in your terminal:
 
-bashCopy code
 
 `sudo apt-get install -y nasm iasl uuid-dev python3 sudo apt-get install -y python3-distutils`
 
 Cloning and Preparing EDK2 Repository
 -------------------------------------
 
-bashCopy code
 
 `git clone https://github.com/tianocore/edk2 cd edk2 git submodule update --init`
 
@@ -37,7 +35,6 @@ Compiling EDK2 Build Tools
 
 *   **Compile C Programs**: **EDK2** utilizes a combination of Python scripts and C programs located in the **BaseTools** directory.
     
-    bashCopy code
     
     `make -C BaseTools`
     
@@ -53,8 +50,7 @@ Building EDKII
 
 *   **Initialize Environment**: Source the `edksetup.sh` script:
     
-    bashCopy code
-    
+     
     `. edksetup.sh`
     
 *   **Building EDKII**: Use the `build` command to compile EDKII packages.
@@ -65,8 +61,7 @@ Compiling OVMF (Open Virtual Machine Firmware)
 
 *   **Building OVMF**: Execute the following command to build OVMF:
     
-    bashCopy code
-    
+     
     `build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5`
     
     **Note:** GCC version 5 or higher is required.
@@ -79,14 +74,12 @@ Testing with QEMU
 
 *   **Install QEMU**: To install QEMU on your system, run the following command in the terminal:
     
-    bashCopy code
-    
+     
     `sudo apt-get install qemu-system-x86_64`
     
 *   **Running OVMF in QEMU**: To run OVMF with QEMU, use the following command:
     
-    bashCopy code
-    
+     
     `qemu-system-x86_64 -drive if=pflash,format=raw,readonly,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd -drive if=pflash,format=raw,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_VARS.fd -nographic -net none`
 
 
