@@ -120,10 +120,11 @@ For in-depth information on the implementation details of each feature, please r
 
 
 
-## Results
+## Example Results
 
 ![1](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/c25d643f-ddda-4782-8759-43eda7c5d94c)
-Figure 1: Initial interface of the UEFI file system explorer showing the root directory.
+
+Figure 1: mkdir, ls, help
 
 
 ![10](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/763b51d7-548f-40ee-aca9-6544e04d592d)
