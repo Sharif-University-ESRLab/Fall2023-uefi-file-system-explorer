@@ -122,29 +122,13 @@ For in-depth information on the implementation details of each feature, please r
 
 ## Results
 
-![11](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/eb63c8eb-8767-48dd-ade5-54ef9363c33e)
-![10](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/30324939-6bb2-48e3-8773-b9a0251034a4)
-![9](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/64c030e7-bd31-453c-a8ff-cac63dd644e3)
-![8](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/3491f2dc-2e16-4cec-a3e4-7f471fad17c4)
-![7](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/6f19bbfb-e7ce-40ca-aa9b-76c4f4ad7c32)
-![6](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/9215f1af-5abf-467f-a91e-c0798c45ee4f)
-![5](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/b0a6e1ba-e204-45a2-af9a-3ef3235c8db6)
-![4](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/136c729b-addb-46f9-9041-726c6bf0ac1a)
-![3](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/98d76eed-642b-4c6a-af41-a535f26b554b)
-![2](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/6758ed4d-8223-43ca-b04b-d3259cc0f612)
-![1](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/b561e63b-2d2a-4681-8dc0-7dd6d030a03b)
-![19](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/edcffac6-bb30-46f0-8384-01913c1dcf2c)
-![18](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/4bba9135-7bd9-482a-99c6-e6f03ffa2c60)
-![17](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/77ba0178-b72e-42ba-bc60-61b4494ce378)
-![16](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/44fd102f-04d8-4050-881e-4895a89a51f2)
-![15](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/a7e82e1a-0880-41f9-b84d-48cc3d4ae664)
-![14](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/027236fd-2bf9-402f-a597-97bdac747c77)
-![13](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/d151776d-c2a4-4749-b892-997e976b60df)
-![12](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/2c3c87f2-c58d-41fe-beed-bf54ef22a125)
+![1](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/c25d643f-ddda-4782-8759-43eda7c5d94c)
+Figure 1: Initial interface of the UEFI file system explorer showing the root directory.
 
 
+![10](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/763b51d7-548f-40ee-aca9-6544e04d592d)
 
-
+![15](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/80669c71-0f12-4341-938c-99fb1307d908)
 
 
 ## Related Links
