@@ -122,14 +122,23 @@ For in-depth information on the implementation details of each feature, please r
 
 ## Example Results
 
-![1](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/c25d643f-ddda-4782-8759-43eda7c5d94c)
+<p align="center">
+  <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/c25d643f-ddda-4782-8759-43eda7c5d94c" alt="Example Result 1" />
+  <br>
+  <em>Figure 1: mkdir, ls, help</em>
+</p>
 
-Figure 1: mkdir, ls, help
+<p align="center">
+  <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/763b51d7-548f-40ee-aca9-6544e04d592d" alt="Example Result 2" />
+  <br>
+  <em>Figure 2: nano, cat</em>
+</p>
 
-
-![10](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/763b51d7-548f-40ee-aca9-6544e04d592d)
-
-![15](https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/80669c71-0f12-4341-938c-99fb1307d908)
+<p align="center">
+  <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/80669c71-0f12-4341-938c-99fb1307d908" alt="Example Result 3" />
+  <br>
+  <em>Figure 3: copy, paste</em>
+</p>
 
 
 ## Related Links
