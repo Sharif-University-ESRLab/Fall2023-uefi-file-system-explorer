@@ -5,15 +5,90 @@
 
 In this project, we were responsible for developing a UEFI program functioning as a file system explorer. Our primary goal was to design a user interface that allows for easy navigation and interaction with files and directories in the UEFI environment. This project involved a detailed study of UEFI specifications and understanding the principles of developing related applications. Utilizing the protocols available in the UEFI file system, we integrated files and directories. Additionally, developing the user interface, adding advanced features like file searching, filtering, and sorting, and developing error management mechanisms to handle potential exceptions and errors were part of the challenges of this project. Finally, we conducted extensive testing and validation of the program in various scenarios.
 
-*****************************************
-## Tools
-In this section, you should mention the hardware or simulators utilized in your project.
-- Qemu
-- Gem5
-- ESP32
-- Raspberry Pi 3B
-- Temperature Sensor
-***************************************
+
+Prerequisites
+=============
+
+Before starting, ensure your Linux distribution has the following packages installed:
+
+*   **NASM (Netwide Assembler)**: An assembler and disassembler for the Intel x86 architecture.
+*   **IASL (Intel ACPI Compiler/Decompiler)**: Used for Advanced Configuration and Power Interface (ACPI).
+*   **UUID-Dev (Universally Unique ID Library)**: Essential for generating unique identifiers in UEFI.
+*   **Python 3**: Necessary for running build infrastructure scripts.
+
+Installing Packages on Ubuntu
+-----------------------------
+
+Run the following commands in your terminal:
+
+bashCopy code
+
+`sudo apt-get install -y nasm iasl uuid-dev python3 sudo apt-get install -y python3-distutils`
+
+Cloning and Preparing EDK2 Repository
+-------------------------------------
+
+bashCopy code
+
+`git clone https://github.com/tianocore/edk2 cd edk2 git submodule update --init`
+
+Compiling EDK2 Build Tools
+--------------------------
+
+*   **Compile C Programs**: **EDK2** utilizes a combination of Python scripts and C programs located in the **BaseTools** directory.
+    
+    bashCopy code
+    
+    `make -C BaseTools`
+    
+    This command builds tools and libraries under **BaseTools/Source/C/bin** and **BaseTools/Source/C/libs**.
+    
+*   **Tool Wrappers and User Manuals**:
+    
+    *   **EDK2** offers comprehensive wrappers for the use of build tools on both **Linux** and **Windows** platforms. For detailed guidance, refer to the corresponding directories within the **EDK2** repository.
+    *   User manuals for various build tools are located under `BaseTools/UserManuals`.
+
+Building EDKII
+--------------
+
+*   **Initialize Environment**: Source the `edksetup.sh` script:
+    
+    bashCopy code
+    
+    `. edksetup.sh`
+    
+*   **Building EDKII**: Use the `build` command to compile EDKII packages.
+    
+
+Compiling OVMF (Open Virtual Machine Firmware)
+----------------------------------------------
+
+*   **Building OVMF**: Execute the following command to build OVMF:
+    
+    bashCopy code
+    
+    `build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5`
+    
+    **Note:** GCC version 5 or higher is required.
+    
+*   **Locating Build Artifacts**: The build artifacts can be found in the directory structure: `Build/{Platform Name}/{TARGET}_{TOOL_CHAIN_TAG}/FV`.
+    
+
+Testing with QEMU
+-----------------
+
+*   **Install QEMU**: To install QEMU on your system, run the following command in the terminal:
+    
+    bashCopy code
+    
+    `sudo apt-get install qemu-system-x86_64`
+    
+*   **Running OVMF in QEMU**: To run OVMF with QEMU, use the following command:
+    
+    bashCopy code
+    
+    `qemu-system-x86_64 -drive if=pflash,format=raw,readonly,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd -drive if=pflash,format=raw,file=Build/OvmfX64/RELEASE_GCC5/FV/OVMF_VARS.fd -nographic -net none`
+
 
 ## Implementation Details
 
