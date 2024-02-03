@@ -125,33 +125,34 @@ For in-depth information on the implementation details of each feature, please r
 <p align="center">
   <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/c25d643f-ddda-4782-8759-43eda7c5d94c" alt="Example Result 1" />
   <br>
-  <em>Figure 1: mkdir, ls, help</em>
+  <em>Example1: mkdir, ls, help</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/763b51d7-548f-40ee-aca9-6544e04d592d" alt="Example Result 2" />
   <br>
-  <em>Figure 2: nano, cat</em>
+  <em>Example 2: nano, cat</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/Sharif-University-ESRLab/Fall2023-uefi-file-system-explorer/assets/59166955/80669c71-0f12-4341-938c-99fb1307d908" alt="Example Result 3" />
   <br>
-  <em>Figure 3: copy, paste</em>
+  <em>Example 3: copy, paste</em>
 </p>
 
 
-## Related Links
-Some links related to your project come here.
- - [EDK II]([https://github.com/tianocore/edk2](https://github.com/tianocore/edk2))
- - [Protocols – Media Access]([https://randomnerdtutorials.com/esp32-pinout-reference-gpios/](https://uefi.org/specs/UEFI/2.10/13_Protocols_Media_Access.html))
- - [UEFI-Lessons]([https://docs.djangoproject.com/en/5.0/](https://github.com/Kostr/UEFI-Lessons))
+Related Links
+-------------
 
+*   [EDK II](https://github.com/tianocore/edk2)
+*   [Protocols – Media Access](https://uefi.org/specs/UEFI/2.10/13_Protocols_Media_Access.html)
+*   [UEFI-Lessons](https://github.com/Kostr/UEFI-Lessons)
 
-## Authors
-Authors and their github link come here.
-- [Mohammadreza AhmadiTeshnizi]([https://github.com/Sharif-University-ESRLab](https://github.com/teshnizi2))
-- [Ali Abbasi]([https://github.com/Sharif-University-ESRLab](https://github.com/a80-abbasi))
-- [Matin Shoja]([https://github.com/Sharif-University-ESRLab](https://github.com/MartinBrave)https://github.com/MartinBrave)
+Authors
+-------
+
+*   [Mohammadreza AhmadiTeshnizi](https://github.com/teshnizi2)
+*   [Ali Abbasi](https://github.com/a80-abbasi)
+*   [Matin Shoja](https://github.com/MartinBrave)
 
 
